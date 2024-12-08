@@ -41,7 +41,7 @@ BLEU is one of the most widely used metrics for MT evaluation. However, recent s
 2. Permutation Analysis
 - Quantify the number of permutations possible with bigram mismatches.
 3. Tokenization Impact
-Compare scores across different tokenization methods (raw text, subword, character-level).
+- Compare scores across different tokenization methods (raw text, subword, character-level).
 
 ## Key Findings
 - BLEU's sensitivity to tokenization methods can lead to inconsistent results.
