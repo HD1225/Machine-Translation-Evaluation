@@ -1,6 +1,4 @@
-# Machine_Translation_Evaluation
-
-How Reliable is MT Evaluation?
+# How Reliable is MT Evaluation?
 Overview
 This project investigates the reliability of the BLEU metric in machine translation (MT) evaluation. The work involves implementing BLEU from scratch, analyzing its limitations, and comparing it with more robust evaluation methods such as SacreBLEU.
 
