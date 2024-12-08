@@ -1,7 +1,7 @@
 # How Reliable is MT Evaluation?
 
 ## Overview
-This project is the third project proposed by Université Paris Cité for the Multilingual NLP class in the 2024-2025 school year. It investigates the reliability of the BLEU metric in machine translation (MT) evaluation. The work involves implementing BLEU from scratch, analyzing its limitations, and comparing it with more robust evaluation methods such as SacreBLEU.
+This project is the third project proposed by Université Paris Cité for the Multilingual NLP class in the 2024-2025 year. It investigates the reliability of the BLEU metric in machine translation (MT) evaluation. The work involves implementing BLEU from scratch, analyzing its limitations, and comparing it with more robust evaluation methods such as SacreBLEU.
 
 ## Table of Contents
 1. [Introduction](#introduction)
