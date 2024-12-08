@@ -4,18 +4,16 @@
 This project is the third project proposed by Université Paris Cité for the Multilingual NLP class in the 2024-2025 school year. It investigates the reliability of the BLEU metric in machine translation (MT) evaluation. The work involves implementing BLEU from scratch, analyzing its limitations, and comparing it with more robust evaluation methods such as SacreBLEU.
 
 ## Table of Contents
-1. (#Introduction)
-2. Objectives
-3. Implementation Details
-4. Experiments
-- Using BLEU
-- Using SacreBLEU
-- Tokenization Impacts
-5. Key Findings
-6. Usage
-Run Python Scripts
-Explore Jupyter Notebook
-7. References
+1. [Introduction](#introduction)
+2. [Objectives](#objectives)
+3. [Implementation Details](#implementation-details)
+4. [Experiments](#experiments)
+   - Using BLEU
+   - Using SacreBLEU
+   - Tokenization Impacts
+5. [Key Findings](#key-findings)
+6. [References](#references)
+
   
 ## Introduction
 BLEU is one of the most widely used metrics for MT evaluation. However, recent studies highlight critical issues in its use, including potential flaws in interpretation and its sensitivity to tokenization methods. This project revisits BLEU's role in MT evaluation and examines its performance against modern tools like SacreBLEU.
@@ -49,3 +47,8 @@ Compare scores across different tokenization methods (raw text, subword, charact
 - BLEU's sensitivity to tokenization methods can lead to inconsistent results.
 - Permutations in translation hypotheses can artificially inflate BLEU scores.
 - SacreBLEU provides a more robust and reproducible evaluation framework.
+
+## References
+- Chris Callison-Burch, Miles Osborne et Philipp Koehn. “Re-evaluating the Role of Bleu in Machine Translation Research”. In : 11th Conference of the European Chapter of the Association for Computational Linguistics. Trento, Italy : Association for Computational Linguistics, avr. 2006, p. 249-256. url : https://aclanthology.org/E06-1032.
+- Benjamin Marie. Science Left Behind. http://blog.benjaminmarie.com/scienceleft-behind.html. Accessed : 2022-10-19.
+- NLLB Team et al. No Language Left Behind : Scaling Human-Centered Machine Translation. 2022. doi : 10.48550/ARXIV.2207.04672. url : https://arxiv.org/abs/2207.04672.
